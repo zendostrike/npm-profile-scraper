@@ -41,3 +41,7 @@ result.packages // NPMPackage[]
 
 **/
 ```
+
+## Author
+
+zendostrike
