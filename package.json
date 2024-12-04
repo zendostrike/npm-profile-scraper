@@ -1,0 +1,31 @@
+{
+  "name": "npm-profile-scraper",
+  "version": "1.0.0",
+  "description": "Get any NPM Profile information",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "npm",
+    "scraper",
+    "profile",
+    "npm profile scraper"
+  ],
+  "author": "zendostrike",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.10",
+    "axios": "^1.7.8",
+    "cheerio": "^1.0.0"
+  }
+}
