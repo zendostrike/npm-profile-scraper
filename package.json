@@ -2,6 +2,9 @@
   "name": "npm-profile-scraper",
   "version": "1.0.2",
   "description": "Get any NPM Profile information",
+  "repository": {
+    "url": "https://github.com/zendostrike/npm-profile-scraper"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
