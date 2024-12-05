@@ -1,6 +1,6 @@
 {
   "name": "npm-profile-scraper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get any NPM Profile information",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
