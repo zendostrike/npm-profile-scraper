@@ -20,6 +20,10 @@
 Get any NPM Profile information to use on your own Website or Blog.
 </p>
 
+<p align="center">
+<strong>IMPORTANT:</strong> It only works on SERVER SIDE due to CORS error.
+</p>
+
 <hr>
 
 ## Quick Start
