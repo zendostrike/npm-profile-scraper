@@ -1,6 +1,6 @@
 {
   "name": "npm-profile-scraper",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Get any NPM Profile information",
   "repository": {
     "url": "https://github.com/zendostrike/npm-profile-scraper"
