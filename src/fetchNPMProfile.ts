@@ -13,7 +13,7 @@ const fetchNPMProfile = async ({ npmUsername } : FetchNPMProfileArgs) : Promise<
   const { data } = await axios.get(NPM_BASE_URL + npmUsername);
 
   if (!data) {
-    throw new Error('Could not get any information')
+    throw new Error('Could not get any information.')
   }
 
   const $ = cheerio.load(data);
